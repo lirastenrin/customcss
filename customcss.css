@@ -1,0 +1,25 @@
+/* Frames */
+
+div.liras-classic
+{
+	
+}
+
+span.sentence-avatar
+{
+	
+}
+
+/* Paragraphs and elements */
+
+img.sentence-avatar
+{
+	opacity: 0;
+	transition: ease 1s;
+}
+
+span.sentence-avatar:hover img.sentence-avatar
+{
+	opacity: 1;
+	transition: ease 1s;
+}
