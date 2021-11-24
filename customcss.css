@@ -1,8 +1,8 @@
 /* Frames */
 
-div.liras-classic
+body
 {
-	
+  margin: 100px;
 }
 
 div.sentence-avatar
