@@ -5,9 +5,11 @@ div.liras-classic
 	
 }
 
-span.sentence-avatar
+div.sentence-avatar
 {
-	
+  min-height: 40px;
+  vertical-align: middle;
+  margin-left: -41px;
 }
 
 /* Paragraphs and elements */
@@ -16,15 +18,19 @@ img.sentence-avatar
 {
 	width: 36px;
 	height: 36px;
-	position: absolute;
-	left: -40px;
+  margin-right: 5px;
+  vertical-align: middle;
 	opacity: 0;
 	transition: ease 1s;
 }
 
-span.sentence-avatar:hover img.sentence-avatar
+div.sentence-avatar:hover img.sentence-avatar
 {
-	position: relative;
 	opacity: 1;
+	transition: ease 1s;
+}
+
+span.sentence-avatar:hover
+{
 	transition: ease 1s;
 }
