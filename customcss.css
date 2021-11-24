@@ -14,12 +14,17 @@ span.sentence-avatar
 
 img.sentence-avatar
 {
+	width: 36px;
+	height: 36px;
+	position: absolute;
+	left: -40px;
 	opacity: 0;
 	transition: ease 1s;
 }
 
 span.sentence-avatar:hover img.sentence-avatar
 {
+	position: relative;
 	opacity: 1;
 	transition: ease 1s;
 }
