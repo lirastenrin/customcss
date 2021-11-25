@@ -65,12 +65,14 @@ img.sentence-avatar
 	border-radius: 50%;
 	border: solid 1px black;
 	float: left;
+	margin-left: 25px;
 }
 
 div.sentence-avatar:hover img.sentence-avatar
 {
 	opacity: 1;
 	transition: ease 1s;
+	margin-left: 0px;
 }
 
 div.sentence-avatar:hover
