@@ -5,7 +5,7 @@ div.liras-classic
 	
 }
 
-div.sentence-avatar::first-line
+div.sentence-avatar
 {
   min-height: 40px;
   vertical-align: middle;
