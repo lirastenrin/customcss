@@ -40,12 +40,12 @@ div.liras-classic p:last-child
 	margin-bottom: 0px;
 }
 
-p.sentence.liras
+.sentence.liras
 {
 	color: #54236A;
 }
 
-p.sentence.nox
+.sentence.nox
 {
 	color: #c46743;
 }
