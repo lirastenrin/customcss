@@ -1,5 +1,10 @@
 /* Frames */
 
+div.liras-classic
+{
+	
+}
+
 div.sentence-avatar
 {
   min-height: 40px;
@@ -9,12 +14,27 @@ div.sentence-avatar
 
 /* Paragraphs and elements */
 
+p
+{
+	font-size: 1.3rem;
+}
+
+p.sentence.liras
+{
+	color: #54236A;
+}
+
+p.sentence.nox
+{
+	color: #c46743;
+}
+
 img.sentence-avatar
 {
 	width: 36px;
 	height: 36px;
-  margin-right: 5px;
-  vertical-align: middle;
+	margin-right: 5px;
+	vertical-align: middle;
 	opacity: 0;
 	transition: ease 1s;
 }
@@ -25,7 +45,7 @@ div.sentence-avatar:hover img.sentence-avatar
 	transition: ease 1s;
 }
 
-span.sentence-avatar:hover
+div.sentence-avatar:hover
 {
 	transition: ease 1s;
 }
