@@ -46,13 +46,13 @@ div.liras-classic p:last-child
 .sentence-avatar.thought .sentence
 {
 	text-shadow: 0 0 10px black;
-	transition: ease 1s,
+	transition: ease 1s;
 }
 
 .sentence-avatar.thought:hover .sentence
 {
 	text-shadow: 0 0 10px white;
-	transition: ease 1s,
+	transition: ease 1s;
 }
 
 .sentence.liras
