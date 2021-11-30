@@ -43,6 +43,18 @@ div.liras-classic p:last-child
 	margin-left: 71px;
 }
 
+.sentence.thought
+{
+	text-shadow: 0 0 10px black;
+	transition: ease 1s,
+}
+
+.sentence.thought:hover
+{
+	text-shadow: 0 0 10px white;
+	transition: ease 1s,
+}
+
 .sentence.liras
 {
 	color: #54236A;
