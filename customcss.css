@@ -43,13 +43,13 @@ div.liras-classic p:last-child
 	margin-left: 71px;
 }
 
-.sentence.thought
+.sentence-avatar.thought .sentence
 {
 	text-shadow: 0 0 10px black;
 	transition: ease 1s,
 }
 
-.sentence.thought:hover
+.sentence-avatar.thought:hover .sentence
 {
 	text-shadow: 0 0 10px white;
 	transition: ease 1s,
