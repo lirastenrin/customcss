@@ -104,5 +104,5 @@ div.sentence-avatar:hover
 
 .sign-element:hover
 {
-	color: #c46743; transition: ease 1s; cursor: pointer; text-shadow: 1px 1px 2px white;
+	color: #c46743; transition: ease 1s; cursor: pointer; text-shadow: 1px 1px 2px black;
 }
